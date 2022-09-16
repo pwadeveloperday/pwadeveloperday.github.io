@@ -113,13 +113,11 @@ header {
 	}
 
 	.main-nav {
-		z-index: 2;
+		z-index: 1000;
 		height: 100vh;
-		pointer-events: none;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		transition: all .25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 
 		a {
 			color: var(--f) !important;
@@ -264,7 +262,7 @@ footer {
 	}
 
 	p.cp a {
-		 margin-left: 0.5rem;
+		 margin-left: 0.2rem;
 	}
 
 	a {
@@ -323,6 +321,5 @@ footer {
 	&:focus {
 		transform: translateY(6rem);
 		opacity: 1;
-		z-index: 11;
 	}
 }
