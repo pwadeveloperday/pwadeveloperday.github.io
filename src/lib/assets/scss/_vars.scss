@@ -1,0 +1,57 @@
+// Breakpoints
+$xsMin: 37.5rem;
+$xsMax: 47.9375rem;
+$smMin: 48rem;
+$smMax: 63.9375rem;
+$mdMin: 64rem;
+$mdMax: 79.9375rem;
+$lgMin: 80rem;
+$lgMax: 89.9375rem;
+$xlMin: 90rem;
+$xlMax: 104.9375rem;
+$xxlMin: 105rem;
+$xxlMax: 122.4375rem;
+$xxxlMin: 122.5rem;
+
+:root {
+	// Colors
+	--f: rgba(72, 74, 104, 1);
+	--f2: rgba(82, 81, 82, 0.4);
+	--pink: rgba(255, 86, 96);
+	--darkpink: rgba(255, 46, 56);
+	--background: #fff;
+	--intc:  rgba(0, 199, 253, 1);
+	--lightintc: rgba(135, 237, 255, 1);
+	--superlightintc: rgba(171, 231, 242, 1);
+	--extlightintc: rgba(220, 245, 251, 1.0);
+	--darkintc: rgba(0, 86, 180, 1);
+ 
+	--white: #fff;
+	--paper: var(--background);
+	
+
+	// Fonts
+	/**
+	 * These are broken out into two separate variables from a previous iteration. I left
+	 * it in because it's nice to be able to split out the heading and body fonts.
+	 */
+	--pinkFont: 'Libre Franklin', Georgia, Times, serif; 
+	--primaryFont: 'Libre Franklin', sans-serif;
+	--codeFont: 'Fira Code', monospace;
+
+	// Base styles
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	@media (min-width: $smMin) {
+		font-size: 1rem;
+	}
+
+	@media (min-width: $lgMin) {
+		font-size: 1.05rem;
+	}
+}
