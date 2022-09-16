@@ -1,1 +1,0 @@
-import{e as t}from"./index-56c348ce.js";const o=!0,a=async({url:r})=>{try{return{path:r.pathname}}catch(e){throw t(500,e)}},c=Object.freeze(Object.defineProperty({__proto__:null,prerender:o,load:a},Symbol.toStringTag,{value:"Module"}));export{c as _,a as l,o as p};
