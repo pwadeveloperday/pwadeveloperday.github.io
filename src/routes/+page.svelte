@@ -65,7 +65,7 @@ export let data
 <a href="/blog/revisiting-the-real-world-significance-of-pwa-technology" >
 	<div id="revisiting-the-real-world-significance-of-pwa-technology" class="touch">
 		<div class="topic">
-			<h1 class="title">回归初心，重温 PWA 技术的现实意义</h1>
+			<h1 class="title">重温 PWA 技术的现实意义</h1>
 			<div class="details">
 				<div class="avatar" id="icon_edwin"></div>
 				<div class="description">
@@ -129,7 +129,7 @@ export let data
 <a href="/blog/the-exploration-and-practice-of-alibaba.com-pwa-to-reduce-costs-and-increase-efficiency" >
 	<div id="the-exploration-and-practice-of-alibaba.com-pwa-to-reduce-costs-and-increase-efficiency" class="touch">
 		<div class="topic">
-			<h1 class="title">Alibaba.com PWA 降本增效的探索与实践</h1>
+			<h1 class="title">PWA 降本增效的探索与实践</h1>
 			<div class="details">
 				<div class="avatar" id="icon_yuanhong"></div>
 				<div class="description">

@@ -1,6 +1,5 @@
 <script>
 	import MainNav from './MainNav.svelte'
-	import HamburgerMenuButton from './HamburgerMenuButton.svelte'
 	import { siteTitle } from '$lib/config'
 
 	const focusMain = () => {
@@ -35,8 +34,6 @@
 				<div>PWA 开发者日</div>
 			</div>
 		</a>
-		
-		<HamburgerMenuButton />
 		<MainNav />
 	</div>
 </header>

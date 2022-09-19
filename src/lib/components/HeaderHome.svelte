@@ -1,6 +1,5 @@
 <script>
 	import MainNav from './MainNav.svelte'
-	import HamburgerMenuButton from './HamburgerMenuButton.svelte'
 	import { siteTitle } from '$lib/config'
 
 	const focusMain = () => {
@@ -35,13 +34,12 @@
 				<div>PWA 开发者日</div>
 			</div>
 		</a>
-		
-		<HamburgerMenuButton />
+
 		<MainNav />
 	</div>
 	<div class="ads">
 		<h1>在线 免费 分享</h1>
-		<h1>借助 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1952" height="734.935"
+		<h1 class="second">借助 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1952" height="734.935"
 			baseProfile="full" enable-background="new 0 0 1952 734.93" version="1.1" viewBox="0 0 1952 734.93"
 			xml:space="preserve">
 			<g>
@@ -56,7 +54,7 @@
 
 		<div class="herolinks">
 			<a class="link" title="中国 PWA 开发者日视频回放" href="/2022">视频回放</a>
-			<a class="link" title="PWA Summit 2022" href="https://pwasummit.org">PWA Summit 2022</a>
+			<a class="link" title="PWA Summit 2022" href="https://pwasummit.org">PWA Summit</a>
 		</div>
 	</div>
 </header>

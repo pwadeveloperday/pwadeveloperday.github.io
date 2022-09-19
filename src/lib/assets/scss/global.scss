@@ -93,6 +93,11 @@ body {
 		max-height: 180px;
 	}
 
+	.p2021 .bili iframe {
+		max-width: 312px;
+		max-height: 180px;
+	}
+
 	.ids {
 		margin: 1rem 0;
 	}
@@ -105,7 +110,6 @@ body {
 	}
 }
 
- 
 .resources {
 	color: rgb(61, 61, 61);
 	display: flex;
@@ -129,14 +133,18 @@ body {
 	font-size: 1rem;
 }
 
-.nametitle, .bio {
-	font-weight: 600;
-}
-
 .details {
 	display: flex;
 	margin-top: 8px;
 	align-items: center;
+}
+
+.topic .details {
+	margin: 2rem auto;
+}
+
+#main .topic .details {
+	margin: 0 auto;
 }
 
 .avatar {
@@ -285,6 +293,13 @@ h1.tag span {
 	font-weight: 600;
 }
 
+.posts-list h1:hover, .post h1:hover, .section h1:hover, .ids h1:hover {
+	background: linear-gradient(90deg, var(--intc) 20%, var(--darkintc) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .ids h1 {
 	font-size: 1.2rem;
 }
@@ -294,21 +309,22 @@ h1.tag span {
 }
 
 .ads {
-	margin: 4rem auto;
-	text-align: center;
-	display: grid;
+	height: calc(100vh - 180px);
+	display: flex;
+	flex-direction: column;
 	color: var(--f);
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
 	align-items: center;
+	justify-content: center;
 }
 
 .ads h1 {
 	font-size: clamp(36px, 6vw, 82px);
 	letter-spacing: 12px;
 	margin: 1rem 0;
+}
+
+.ads h1.second {
+	margin-top: 0px;
 }
 
 .ads h1:hover {
@@ -367,7 +383,6 @@ h1.tag span {
 
 .intro {
 	margin: 1rem auto 1rem auto;
-	padding: 1rem;
 }
 
 #agenda {
@@ -376,7 +391,7 @@ h1.tag span {
 	grid-template-rows: repeat(5, 1fr);
 	grid-column-gap: 16px;
 	grid-row-gap: 16px;
-	padding: 0 1rem;
+	padding: 0;
 }
 
 @media (max-width: 420px) {
@@ -397,13 +412,20 @@ h1.tag span {
 	cursor: pointer;
 }
 #agenda div .title {
-	font-weight: 500;
-	font-size: clamp(20px, 3vw, 28px);
-	color: var(--darkintc);
+	background: linear-gradient(90deg, var(--darkintc) 20%, var(--intc) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 600;
+	font-size: clamp(1.5rem, 1.2rem + 1.6vw, 1.6rem);
 	text-decoration: none;
 }
 #agenda div:hover .title {
 	color: var(--darkintc);
+	background: linear-gradient(90deg, var(--intc) 20%, var(--darkintc) 100%);
+		background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .details {
 	display: flex;
@@ -456,9 +478,44 @@ h1.tag span {
 	}
 
 	.ads a {
-		margin: 8px auto;
-		display: block;
-		width: 70%;
+		margin: 8px 4px;
+		display: inline-block;
+		width: 42%;
 		font-size: 1rem;
+		padding: 10px 0px;
+	}
+}
+
+@media only screen and (max-width: 980px) and (min-width: 661px) {
+	.ads svg {
+		width: 160px;
+    height: 60px;
+	}
+}
+
+@media only screen and (max-width: 660px) and (min-width: 420px) {
+	.ads svg {
+		width: 100px;
+    height: 38px;
+		margin-bottom: -6px;
+	}
+}
+
+@media only screen and (orientation: landscape) and (max-height: 420px) {
+	.ads {
+		height: calc(100vh - 160px);
+	}
+	.ads h1 {
+		line-height: auto;
+		margin: 0px;
+		font-size: clamp(36px, 4vw, 60px);
+	}
+	.ads svg {
+		width: 100px;
+    height: 38px;
+		margin-bottom: -6px;
+	}
+	.herolinks {
+		margin-top: 2rem;
 	}
 }

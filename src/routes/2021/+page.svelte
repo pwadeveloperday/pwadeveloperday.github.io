@@ -3,9 +3,9 @@
 </svelte:head>
 
 <div class="p2021">
-	<h1>第一届中国 PWA 开发者日 (2021)</h1>
+	<h1>第一届中国 PWA 开发者日</h1>
 	<div class="desc">
-随着 PWA 技术引入以及多种 Web 平台能力的增强，PWA 技术的 Web 应用获得了与传统本地应用几乎相同的用户体验并且得到了广泛的应用，也促进了小程序生态的发展。
+2021年，随着 PWA 技术引入以及多种 Web 平台能力的增强，PWA 技术的 Web 应用获得了与传统本地应用几乎相同的用户体验并且得到了广泛的应用，也促进了小程序生态的发展。
 </div>
 	<div id="schedule">
 	<div id="id_1" class="ids">
@@ -107,7 +107,7 @@
 			<iframe width="1472" height="828" src="https://player.bilibili.com/player.html?cid=741447255&amp;aid=257311221&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 		</div>
 		<div class="description">
-			<div class="nametitle"><strong>丛慧君</strong><br>Google Chrome &amp; Web Platform 高级解决方案顾问</div>
+			<div class="nametitle"><strong>丛慧君</strong><br>Google Chrome &amp; Web 平台高级解决方案顾问</div>
 			<div class="bio"> 负责大中华区 Web 技术的推广及 Chrome/Web 产品的生态领域合作。 </div>
 		</div>
 
@@ -162,7 +162,7 @@
 		</div>
 		<div class="description">
 			<div class="nametitle"><strong>元凯宁</strong><br>原英特尔 Web 平台工程软件技术经理</div>
-			<div class="bio"> 一直进行 Web 技术的研究和开发，曾跻身于 Chromium 浏览器及衍生的 Web Runtime、Web IDE、Node.js 等多种技术和平台，贡献有多项产品和专利。 </div>
+			<div class="bio"> Web 技术研究和开发，跻身于 Chromium 及 Web Runtime、Web IDE、Node.js 等多种技术，贡献有多项产品和专利。 </div>
 		</div>
 
 		<div class="resources">

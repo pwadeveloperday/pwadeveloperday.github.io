@@ -16,6 +16,7 @@ footer {
 		list-style-type: none;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		gap: 0rem 1.5rem;
 		padding: 0;
 		margin: 0;
@@ -67,8 +68,8 @@ header {
 			text-align: left;
 			line-height: 1.8rem;
 			font-size: 1.4rem;
-			color: var(--darkintc);
-			font-weight: 600;
+			color: var(--intc);
+			font-weight: 200;
 		}
 
 		.logotitle .chn {
@@ -76,7 +77,8 @@ header {
 			display: inline-block;
 			color: #fff;
 			border-radius: 6px;
-			padding: 2px 10px;
+			font-weight: 200;
+			padding: 4px 10px 1px 10px;
 		}
 
 		@media (min-width: vars.$smMin) {
@@ -95,62 +97,22 @@ header {
 
 	}
 
+	.site-title:hover .logotitle {
+		color: var(--darkintc);
+	}
+
 	.site-title:hover .logo, .site-title:hover .chn {
 		background-color: var(--darkintc);
 	}
 
-	.menu-button {
-		margin: 0;
-		background: transparent !important;
-		color: inherit;
-		padding: 0;
-		border: 0;
-		width: 2rem;
-
-		@media (min-width: vars.$smMin) {
-			display: none;
-		}
-	}
-
 	.main-nav {
 		z-index: 1000;
-		height: 100vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 
 		a {
 			color: var(--f) !important;
-		}
-
-		&.open {
-			transform: translateX(0);
-			opacity: 1;
-			pointer-events: unset;
-			visibility: unset;
-			width: 100%;
-
-			li {
-				opacity: 0;
-				animation: slide_in_left .2s cubic-bezier(0.215, 0.610, 0.355, 1) forwards;
-
-				a {
-					color: inherit;
-				}
-
-				// Probably shouldn't have more than 8 main nav menu items, but if you do, you can adjust this
-				@for $i from 1 through 8 {
-					&:nth-of-type(#{$i}) {
-						animation-delay: 0.15s + $i * 0.05s;
-					}
-				}
-			}
-		}
-
-		.menu-button {
-			position: absolute;
-			top: 2rem;
-			right: 2rem;
 		}
 		
 		ul li {
@@ -161,6 +123,7 @@ header {
 			margin-bottom: calc(.2rem + 2vh);
 			text-decoration: none;
 			margin-left: 1rem;
+			min-width: 40px;
 		}
 
 		ul li:last-child {
@@ -228,7 +191,6 @@ header {
 }
 
 footer {
-	max-width: calc(1170px + (2 * 30px));
 	margin: 2rem auto;
 	padding: 0rem 1rem;
 
@@ -302,6 +264,20 @@ footer {
     margin: 2rem auto;
     padding: 0rem 1rem;
     max-width: calc(1170px + (2 * 30px));
+	}
+	header .main-nav ul {
+		margin-top: 1rem;
+	}
+	header .main-nav ul li {
+		font-size: 1rem;
+		margin: 0;
+		margin-left: 0.2rem;
+		min-width: 40px;
+	}
+	header .main-nav ul li:last-child {
+		background-color: var(--f);
+		padding: 0px 20px 2px 20px;
+		border-radius: 20px;
 	}
 }
 
