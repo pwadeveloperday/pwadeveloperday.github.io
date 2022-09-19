@@ -79,4 +79,12 @@ body {
 	@media (min-width: $lgMin) {
 		font-size: 1.05rem;
 	}
+
+	h1 {
+		font-family: FangSong, KaiTi, NSimSun, SegoeUI;
+	}
+
+	.p2021 div, .p2022 div {
+		font-family: FangSong, KaiTi, SegoeUI;
+	}
 }

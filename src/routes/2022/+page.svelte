@@ -10,7 +10,7 @@
 >活动。 本次活动邀请一众业界大咖围绕 PWA 展开分享，探讨最新技术进展，以及 PWA
 生态的实践与落地。
 
-<div class="section">
+<div class="section p2022">
   <h1><a href="../blog/opening">开幕致辞</a></h1>
   <div class="topic">
     <div class="bili">
@@ -73,7 +73,7 @@
   </div>
 </div>
 
-<div class="section">
+<div class="section p2022">
   <h1><a href="../blog/open-speech">开场演讲 PWAs &amp; MiniApps</a></h1>
   <div class="topic">
     <div class="bili">
@@ -144,7 +144,7 @@
   </div>
 </div>
 
-<div class="section">
+<div class="section p2022">
   <h1>
     <a href="../blog/take-full-advantage-of-a-pwa"
       >Take Full Advantage of a PWA</a
@@ -211,7 +211,7 @@
   </div>
 </div>
 
-<div class="section">
+<div class="section p2022">
   <h1>
     <a href="../blog/revisiting-the-real-world-significance-of-pwa-technology"
       >回归初心，重温 PWA 技术的现实意义</a
@@ -286,7 +286,7 @@
   </div>
 </div>
 
-<div class="section">
+<div class="section p2022">
   <h1>
     <a href="../blog/the-world-of-pwa-tools-from-starter-to-builder"
       >The World of PWA Tools: From Starter to Builder</a
@@ -357,8 +357,8 @@
   </div>
 </div>
 
-<div class="section">
-  <h1><a href="../blog/running-mini-apps-in-pwa">跑在 PWA 里的 '小程序'</a></h1>
+<div class="section p2022">
+  <h1><a href="../blog/running-mini-apps-in-pwa">跑在 PWA 里的小程序</a></h1>
   <div class="topic">
     <div class="bili">
       <iframe
@@ -424,13 +424,12 @@
       端等相关能力的规划与研发工作。同时是 Tide 项目的核心开发成员，负责
       tide-site 和 cloud ide 相关的研发，开放插件协议和相关接口实现等等。2019
       年作为讲师出席第二届软件绿色联盟「构生态·建未来
-      」开发者大会，受邀参加第四届 TLC 腾讯直播大会、 GMTC-2021 深圳站、QCon+
-      2022。
+      」开发者大会，受邀参加第四届 TLC 腾讯直播大会、 GMTC-2021 深圳站、QCon+。
     </div>
   </div>
 </div>
 
-<div class="section">
+<div class="section p2022">
   <h1>
     <a href="../blog/tencent-documentation-pwa-development-practice"
       >腾讯文档 PWA 开发实践</a
@@ -498,7 +497,7 @@
   </div>
 </div>
 
-<div class="section">
+<div class="section p2022">
   <h1>
     <a
       href="../blog/the-exploration-and-practice-of-alibaba.com-pwa-to-reduce-costs-and-increase-efficiency"
@@ -568,7 +567,7 @@
   </div>
 </div>
 
-<div class="section">
+<div class="section p2022">
   <h1>
     <a href="./blog/the-journey-of-web-nativeization">网页的原生化之旅</a>
   </h1>
@@ -637,7 +636,7 @@
   </div>
 </div>
 
-<div class="section">
+<div class="section p2022">
   <h1>
     <a href="../blog/explore-new-web-capabilities-for-your-pwa"
       >新兴 Web 技术助力 PWA</a
