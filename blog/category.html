@@ -11,12 +11,12 @@
 		<link rel="manifest" href="/manifest.json" />
 		
 		<meta http-equiv="content-security-policy" content=""><title>Blog | Tags</title>
-	<link href="../_app/immutable/assets/_layout-6da045df.css" rel="stylesheet">
-	<link rel="modulepreload" href="../_app/immutable/start-b4b24cab.js">
+	<link href="../_app/immutable/assets/_layout-560b76be.css" rel="stylesheet">
+	<link rel="modulepreload" href="../_app/immutable/start-09d62b7b.js">
 	<link rel="modulepreload" href="../_app/immutable/chunks/index-148df3e2.js">
-	<link rel="modulepreload" href="../_app/immutable/chunks/singletons-7c79c6e6.js">
+	<link rel="modulepreload" href="../_app/immutable/chunks/singletons-438c3736.js">
 	<link rel="modulepreload" href="../_app/immutable/chunks/index-56c348ce.js">
-	<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-30fadd0f.js">
+	<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-0e0de12b.js">
 	<link rel="modulepreload" href="../_app/immutable/chunks/config-d046e51a.js">
 	<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-f214614a.js">
 	<link rel="modulepreload" href="../_app/immutable/chunks/_layout-127e3191.js">
@@ -82,7 +82,7 @@
 
 
 		<script type="module" data-sveltekit-hydrate="wtzzmr">
-		import { start } from "../_app/immutable/start-b4b24cab.js";
+		import { start } from "../_app/immutable/start-09d62b7b.js";
 
 		start({
 			env: {},
@@ -101,6 +101,60 @@
 		});
 	</script>
 	</div>
+		<script>
+			const showStatus = async () => {
+				if (!window.queryLocalFonts) {
+					console.log('queryLocalFonts() 不存在');
+					// this.enabled = false;
+					return;
+				} else {
+					// this.enabled = true;
+					console.log('queryLocalFonts() 可用');
+				}
+				
+				const status = await navigator.permissions.query({ name: "local-fonts" });
+				let statusMessage;
+				if (status.state === "granted")
+					statusMessage = '已授予权限 👍';
+				else if (status.state === "prompt")
+					statusMessage = '将要请求权限';
+				else
+					statusMessage = '权限被拒绝 👎';
+					
+				console.log(statusMessage); 
+			}
+
+			const localFontAccess = async () => {
+				try {
+					const array = await self.queryLocalFonts({postscriptNames: ['NSimSun', 'FangSong', 'KaiTi', 'SegoeUI']});
+					let styles = ``;
+					array.forEach(font => {
+						console.log(`Access granted for ${font.postscriptName}`);
+						styles += `
+						@font-face {
+							font-family: ${font.postscriptName};
+							src: local("${font.postscriptName}");
+						}`;
+					});
+
+					console.log(`${styles}`);
+
+					let css = document.createElement('style');
+					css.id = 'df';
+					css.type = 'text/css';
+					
+					if (css.styleSheet)
+						css.styleSheet.cssText = styles;
+					else
+						css.appendChild(document.createTextNode(styles));
+					document.querySelectorAll('head')[0].appendChild(css);    
+				} catch(e) {
+					// Handle error. It could be a permission error.
+					console.warn(`Local font access not available: ${e.message}`);
+				}
+			}
+			document.addEventListener('DOMContentLoaded', localFontAccess, false);
+		</script>
 		<script type="module">
 			if ('serviceWorker' in navigator) {
 				navigator.serviceWorker.register('/sw.js').then((registration) => {
