@@ -7,7 +7,6 @@ categories:
   - "PWA"
   - "Fugu"
   - "Sensor"
-  - "传感器"
 coverImage: "/images/blog/20220706/4.png"
 coverWidth: 16
 coverHeight: 9

@@ -2,9 +2,10 @@
 	<title>行为准则 | 中国 PWA 开发者日 | China PWA Developer Day</title>
 </svelte:head>
 
-# 行为准则
+<div class="page">
+<h1>行为准则</h1>
 
-## 中国 PWA 开发者日旨在成为一个包容并欢迎所有人的活动
+<h2>中国 PWA 开发者日旨在成为一个包容并欢迎所有人的活动</h2>
 
 中国 PWA 开发者日要求尊重每一个人，并互相尊重。每个人都有权参与并享受我们的分享，而不必担心骚扰、歧视或傲慢。
 
@@ -14,12 +15,13 @@
 
 任何违反这些规则的人，包括但不限于与会者、赞助商和组织者，都可能被会议组织者开除会议。
 
-## 行为准则适用于谁？它适用于什么地方？
+<h2>行为准则适用于谁？它适用于什么地方？</h2>
 
 行为准则适用于所有人，包括与会者、赞助商、演讲者和组织者。它适用于任何中国 PWA 开发者日主办的线上或线下活动，包括代码存储库和宣传推广渠道（微信分享、微博分享、直播平台、活动聊天等）。不容忍任何形式的不当行为或骚扰。
 
-## 报告行为准则问题
+<h2>报告行为准则问题</h2>
 
 如果您需要任何形式的帮助或者报告不良情况，请联系我们：pwadeveloperday<span class="spam">spam</span>@<span class="spam">spam</span>outlook<span class="spam">spam</span>.com
 
-本行为准则深受 [PWA Summit 行为准则](https://pwasummit.org/code-of-conduct/) 的影响。
+本行为准则深受 <a href="https://pwasummit.org/code-of-conduct/" title="PWA Summit 行为准则">PWA Summit 行为准则</a> 的影响。
+</div>

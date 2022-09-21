@@ -2,6 +2,7 @@
   <title>第二届中国 PWA 开发者日 | China PWA Developer Day 2022</title>
 </svelte:head>
 
+<div class="page">
 <h1>第二届中国 PWA 开发者日</h1>
 
 为加速推动渐进式 Web 应用 (PWA) 在中国的发展，微软、英特尔与谷歌于 2022 年 8 月
@@ -706,4 +707,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>

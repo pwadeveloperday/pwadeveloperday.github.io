@@ -37,6 +37,15 @@ header {
 
 header.hero {
 	padding: 0;
+	background-color:hsla(244,100%,50%,1);
+	background-image:
+	radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%),
+	radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
+	radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0px, transparent 50%),
+	radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
+	radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
 }
 
 header {
@@ -58,9 +67,10 @@ header {
 
 		.logo {
 			border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
-			border: 2px solid var(--intc);
+			border: 2px solid #fff;
 			width: 52px;
 			height: 52px;
+			background-color: var(--intc);
 		}
 
 		.logotitle {
@@ -87,7 +97,7 @@ header {
 		}
 
 		svg path {
-			fill: var(--intc);
+			fill: #fff;
 		}
 
 	}
@@ -97,11 +107,12 @@ header {
 	}
 
 	.site-title:hover .logo {
-		border: 2px solid var(--darkintc);
+		border: 2px solid var(--intc);
+		background-color: var(--darkintc);
 	}
 
 	.site-title:hover .logo svg path {
-		fill: var(--darkintc);
+		fill: #fff;
 	}
 
 	.main-nav {
@@ -132,7 +143,7 @@ header {
 		}
 
 		ul li:last-child:hover {
-			background-color: var(--intc);
+			background-color: var(--darkintc);
 		}
 
 		ul li:last-child a {
@@ -154,7 +165,7 @@ header {
 		}
 
 		li:hover, a:hover {
-			color: var(--intc) !important;
+			color: var(--darkintc) !important;
 			text-decoration: none;
 		}
 
@@ -187,6 +198,10 @@ header {
 			}
 		}
 	}
+}
+
+header.hero .site-title .logotitle {
+	color: #fff;
 }
 
 footer {

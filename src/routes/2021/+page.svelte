@@ -2,6 +2,7 @@
 	<title>第一届中国 PWA 开发者日 | China PWA Developer Day 2021</title>
 </svelte:head>
 
+<div class="page">
 <div class="p2021">
 	<h1>第一届中国 PWA 开发者日</h1>
 	<div class="desc">
@@ -218,4 +219,5 @@
 	</div>
 
 	</div>
+</div>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: "开场演讲 PWAs & MiniApps"
+title: "开场演讲 PWAs and MiniApps"
 date: "2022-08-08"
 updated: "2022-08-08"
 categories: 

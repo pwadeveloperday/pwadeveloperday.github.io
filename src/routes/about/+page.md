@@ -2,9 +2,10 @@
 	<title>关于 | 中国 PWA 开发者日 | China PWA Developer Day</title>
 </svelte:head>
 
-# 关于中国 PWA 开发者日
+<div class="page">
+<h1>关于中国 PWA 开发者日</h1>
 
-## 为什么参加？
+<h2>为什么参加？</h2>
 
 中国 PWA 开发者日的使命是助您使用渐进式 Web 应用（PWA）取得成功。
 
@@ -12,18 +13,24 @@
 
 该活动免费。
 
-## 主办方
+<h2>主办方</h2>
 中国 PWA 开发者日由参与创建 PWA 技术的几家公司的人员合作举办。
 
-### 主办方：
+<h2>主办方：</h2>
 
-- 2021 年：英特尔 鼎道智联
-- 2022 年：英特尔 微软 谷歌
+<ul>
+	<li>2021 年：英特尔 鼎道智联</li>
+	<li>2022 年：英特尔 微软 谷歌</li>
+</ul>
  
-### 2022 年主办方成员：
+<h3>2022 年主办方成员：</h3>
 
-- 张敏 英特尔软件技术经理
-- 宋青见 微软首席产品经理
-- 丛慧君 谷歌高级解决方案顾问
+<ul>
+	<li>张敏 英特尔软件技术经理</li>
+	<li>宋青见 微软首席产品经理</li>
+	<li>丛慧君 谷歌高级解决方案顾问</li>
+</ul>
 
 联系我们: pwadeveloperday<span class="spam">spam</span>@<span class="spam">spam</span>outlook<span class="spam">spam</span>.com
+
+</div>
