@@ -6,6 +6,8 @@ categories:
   - "WebAssembly"
   - "Wasm"
   - "PWA"
+  - "Progressive Web Applications"
+  - "Progressive Web Apps"
 coverImage: "/images/blog/20220302/1.png"
 coverWidth: 16
 coverHeight: 9

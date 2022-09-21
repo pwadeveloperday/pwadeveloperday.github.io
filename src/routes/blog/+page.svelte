@@ -13,8 +13,8 @@
 </svelte:head>
 
 <div class="page">
-<h1 class="tag"><span>Blog</span></h1>
-<PostsList posts={data.posts} />
+	<h1 class="tag"><span>Blog</span></h1>
+	<PostsList posts={data.posts} />
 
-<Pagination currentPage={1} totalPosts={data.total} />
+	<Pagination currentPage={1} totalPosts={data.total} />
 </div>

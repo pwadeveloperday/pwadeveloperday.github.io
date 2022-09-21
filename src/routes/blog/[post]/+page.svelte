@@ -10,7 +10,6 @@ const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, cate
 
 
 <svelte:head>
-	<!-- Be sure to add your image files and un-comment the lines below -->
 	<title>{title} | 中国 PWA 开发者日 | China PWA Developer Day</title>
 	<meta data-key="description" name="description" content="{excerpt}">
 	<meta property="og:type" content="article" />

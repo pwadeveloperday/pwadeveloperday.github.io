@@ -5,6 +5,8 @@ updated: "2022-07-06"
 categories: 
   - "DevDay"
   - "PWA"
+  - "Progressive Web Applications"
+  - "Progressive Web Apps"
   - "Fugu"
   - "Sensor"
 coverImage: "/images/blog/20220706/4.png"

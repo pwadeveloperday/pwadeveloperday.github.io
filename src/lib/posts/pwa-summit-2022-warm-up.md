@@ -4,6 +4,8 @@ date: "2022-09-21"
 updated: "2022-09-21"
 categories: 
   - "PWA"
+  - "Progressive Web Applications"
+  - "Progressive Web Apps"
   - "DevDay"
   - "PWASummit"
 coverImage: "/images/blog/20220921/2.jfif"

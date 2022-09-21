@@ -340,13 +340,14 @@ header .main-nav ul li:last-child {
 
 h1.tag {
 	font-size: 16.8px;
-	background-color: var(--intc);
-	color: white;
+	border: 1px solid var(--intc);
 	display: inline-block;
 }
 
 h1.tag:hover {
 	background-color: var(--darkintc);
+	border: 1px solid var(--darkintc);
+	color: #fff;
 }
 
 h1.tag a {
@@ -608,8 +609,16 @@ h1.tag span {
 		height: auto;
 	}
 
+	.ads {
+		height: calc(100vh - 130px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.ads h1 {
 		letter-spacing: 2px !important;
+		margin-top: -5rem;
 	}
 
 	.ads svg {

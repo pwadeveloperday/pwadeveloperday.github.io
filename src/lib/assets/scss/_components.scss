@@ -25,8 +25,9 @@
 		}
 
 		a {
-			background: var(--intc);
-			color: #fff;
+			background: transparent;
+			color: var(--intc);
+			border: 1px dashed #ddd;
 			text-decoration: none;
 			line-height: 1;
 			display: flex;
@@ -39,13 +40,15 @@
 			transition: background .1s;
 
 			&:hover {
-				background: var(--darkpink);
+				background: var(--intc);
 				color: var(--background);
+				border: 1px solid var(--intc);
 			}
 
 			&[aria-current="true"] {
 				background: var(--pink);
 				color: var(--background);
+				border: 1px solid var(--pink);
 			}
 
 			&[aria-current="true"]:hover {

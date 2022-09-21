@@ -17,17 +17,18 @@
 	<meta data-key="description" name={siteDescription}>
 </svelte:head>
 
+<div class="page">
+	<!-- TODO: this is duplicated across multiple `+page.svelte` files -->
+	{#if posts && posts.length}
+		<h1 class="tag"><a href="/blog/category">Tag</a> <span>{category} {lowerBound}-{upperBound} / {totalPosts}</span></h1>
+		<PostsList {posts} />
 
-<!-- TODO: this is duplicated across multiple `+page.svelte` files -->
-{#if posts && posts.length}
-	<h1 class="tag"><a href="/blog/category">Tag</a> <span>{category} {lowerBound}-{upperBound} / {totalPosts}</span></h1>
-	<PostsList {posts} />
+		<Pagination currentPage={page} {totalPosts} path="/blog/category/{category}/page" />
+	{:else}
+		<h1>嗯...</h1>
 
-	<Pagination currentPage={page} {totalPosts} path="/blog/category/{category}/page" />
-{:else}
-	<h1>嗯...</h1>
+		<p>没有文章</p>
 
-	<p>没有文章</p>
-
-	<a href="/blog">返回 Blog</a>
-{/if}
+		<a href="/blog">返回 Blog</a>
+	{/if}
+</div>

@@ -122,7 +122,7 @@ header {
 		align-items: center;
 
 		a {
-			color: var(--f) !important;
+			color: var(--f);
 		}
 		
 		ul li {
@@ -140,6 +140,7 @@ header {
     	background-color: var(--f);
 			padding: 0px 30px 2px 30px;
 			border-radius: 20px;
+			box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.05);
 		}
 
 		ul li:last-child:hover {
@@ -201,6 +202,10 @@ header {
 }
 
 header.hero .site-title .logotitle {
+	color: #fff;
+}
+
+header.hero .main-nav a {
 	color: #fff;
 }
 
@@ -286,7 +291,7 @@ footer {
 		font-size: 1rem;
 		margin: 0;
 		margin-left: 0.2rem;
-		min-width: 40px;
+		min-width: 72px;
 	}
 	header .main-nav ul li:last-child {
 		background-color: var(--f);

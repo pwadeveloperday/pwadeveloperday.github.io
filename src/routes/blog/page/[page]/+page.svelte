@@ -18,7 +18,7 @@
 </svelte:head>
 
 
-<!-- TODO: this is duplicated across multiple `+page.svelte` files -->
+<div class="page">
 {#if posts.length}
 	<h1 class="tag"><span>Blog: {lowerBound}-{upperBound} / {totalPosts}</span></h1>
 
@@ -32,3 +32,4 @@
 
 	<a href="/blog">返回 Blog</a>
 {/if}
+</div>
