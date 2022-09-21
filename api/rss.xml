@@ -3,7 +3,7 @@
 <channel>
 <title>中国 PWA 开发者日</title>
 <description>China PWA Developer Day, 中国 PWA 开发者日, PWA, Progressive Web Apps, Progressive Web Applications, 渐进式网页应用, 渐进式 Web 应用. 为加速推动渐进式 Web 应用 (PWA) 在中国的发展，微软、英特尔与谷歌携手举办中国 PWA 开发者日活动。 2002年的活动邀请了一众业界大咖围绕 PWA 展开分享，探讨最新技术进展，以及 PWA 生态的实践与落地。 期待每年与您相聚。</description>
-<link>https://github.com/pwadeveloperday/pwadeveloperday.github.io</link>
+<link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
 <guid isPermaLink="true">https://pwadev.io/blog/pwa-summit-2022-warm-up</guid>
