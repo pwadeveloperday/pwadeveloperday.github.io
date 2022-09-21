@@ -216,12 +216,13 @@ body {
 .pdf svg {
 	width: 26px;
 	height: 18px;
-	fill: rgba(0, 113, 197, 0.9);
+	fill: var(--intc);
 }
 
 .pdf:hover svg path {
-	fill: rgba(255, 255, 255, 1.0);
+	fill: var(--darkintc);
 }
+
 .pdf a:last-child {
 	
 }
@@ -286,15 +287,31 @@ h1.tag span {
 }
 
 .posts-list h1, .post h1, .section h1, .ids h1 {
-	background: linear-gradient(90deg, var(--darkintc) 20%, var(--intc) 100%);
+	background: linear-gradient(90deg, var(--intc) 20%, var(--darkintc) 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 600;
 }
 
+.posts-list h1::before, .post h1::before, .section h1::before, .ids h1::before {
+  content: "";
+  position: absolute;
+  left: 5%;
+  bottom: 6px;
+  width: 150px;
+  height: 8px;
+  transform: skew(-30deg) translateX(-50%);
+  background: rgba(255, 86, 96, 0.2);
+  z-index: -1;
+}
+
+.posts-list h1:hover::before, .post h1:hover::before, .section h1:hover::before, .ids h1:hover::before {
+  background: rgba(255, 86, 96, 0.8);
+}
+
 .posts-list h1:hover, .post h1:hover, .section h1:hover, .ids h1:hover {
-	background: linear-gradient(90deg, var(--intc) 20%, var(--darkintc) 100%);
+	background: linear-gradient(90deg, var(--darkintc) 20%, var(--intc) 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -338,6 +355,10 @@ h1.tag span {
 	margin: 0 0 -10px 0;
 }
 
+.ads h1:hover svg path {
+	fill: var(--darkintc);
+}
+
 .ads a {
 	box-shadow: rgb(0 0 0 / 20%) 0px 2px 9px;
 	border-width: 2px;
@@ -366,15 +387,17 @@ h1.tag span {
 }
 
 .post a {
-	border-bottom: 1px dashed var(--darkintc);
-	padding: 2px 4px;
+	border-bottom: 1px dashed var(--intc);
+	padding: 0px 0px;
 	color: var(--darkintc);
 }
 
 .post a:hover {
-	background: var(--darkintc);
-	color: white;
-	border: 0px;
+	background: linear-gradient(to left, var(--lightintc), var(--intc) 100%);
+	background-position: 0 100%;
+	background-size: 100% 2px;
+	background-repeat: repeat-x;
+	border-bottom: 0;
 }
 
 .post-footer a {
@@ -447,7 +470,7 @@ h1.tag span {
 }
 
 .p2022 .topic .details {
-	margin: 1rem auto !important;
+	margin: 1rem auto 2rem auto !important;
 }
 
 @media only screen and (max-width: 420px) {
@@ -470,7 +493,7 @@ h1.tag span {
 	}
 
 	.ads svg {
-		width: 100px !important;
+		width: 86px !important;
 		height: 32px !important;
 		margin-bottom: -4px !important;
 	}
@@ -484,7 +507,7 @@ h1.tag span {
 	.ads a {
 		margin: 8px 4px;
 		display: inline-block;
-		width: 42%;
+		width: 40%;
 		font-size: 1rem;
 		padding: 10px 0px;
 	}

@@ -54,30 +54,26 @@ header {
 		margin: 0;
 		display: flex;
 		align-items: center;
-		gap: 16px;
+		gap: 6px;
 
 		.logo {
 			border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
-			background-color: var(--intc);
-			width: 72px;
-			height: 72px;
-			line-height: 72px;
+			border: 2px solid var(--intc);
+			width: 52px;
+			height: 52px;
 		}
 
 		.logotitle {
 			text-align: left;
-			line-height: 1.8rem;
-			font-size: 1.4rem;
+			line-height: 1.2rem;
+			font-size: 1.2rem;
 			color: var(--intc);
 			font-weight: 600;
 		}
 
 		.logotitle .chn {
-			background: var(--intc);
 			display: inline-block;
-			color: #fff;
-			border-radius: 6px;
-			padding: 4px 10px 1px 10px;
+			margin-bottom: 4px;
 		}
 
 		@media (min-width: vars.$smMin) {
@@ -85,13 +81,13 @@ header {
 		}
 
 		svg {
-			width: 52px;
-			height: 72px;
+			width: 38px;
+			height: 45px;
 			position: static;
 		}
 
 		svg path {
-			fill: white;
+			fill: var(--intc);
 		}
 
 	}
@@ -100,8 +96,12 @@ header {
 		color: var(--darkintc);
 	}
 
-	.site-title:hover .logo, .site-title:hover .chn {
-		background-color: var(--darkintc);
+	.site-title:hover .logo {
+		border: 2px solid var(--darkintc);
+	}
+
+	.site-title:hover .logo svg path {
+		fill: var(--darkintc);
 	}
 
 	.main-nav {

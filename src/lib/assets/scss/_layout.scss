@@ -87,12 +87,12 @@ img {
 		width: 80px;
     height: 80px;
     background-size: 80px 80px;
-    border: 4px solid var(--intc);
+    border: 4px solid rgb(119, 255, 51);
     border-radius: 60px;
 	}
 
 	.author:hover img {
-		border: 4px solid rgb(119, 255, 51);
+		border: 4px solid var(--darkintc);
 	}
 
 	img + h1 {
@@ -135,16 +135,21 @@ li {
 		margin: 0.5rem 0.2rem;
 
 		a {
-			background-color: var(--intc);
-			padding: .5rem 0.75rem;
+			border: 1px dashed #ddd;
+			padding: 0.2rem 0.75rem .1rem 0.75rem;
 			text-transform: uppercase;
 			font-family: var(--primaryFont);
 			font-weight: bold;
-			color: white;
+			color: var(--intc);
+			text-decoration: none;
 		}
 
 		a:hover {
+			text-decoration: none;
+			color: #fff;
+			background: none;
 			background-color: var(--darkintc);
+			border: 1px solid var(--darkintc);
 		}
 	}
 }

@@ -51,7 +51,7 @@
 
 			const localFontAccess = async () => {
 				try {
-					const array = await self.queryLocalFonts({postscriptNames: ['NSimSun', 'FangSong', 'KaiTi', 'SegoeUI']});
+					const array = await self.queryLocalFonts({postscriptNames: ['FangSong', 'KaiTi', 'SegoeUI']});
 					let styles = ``;
 					array.forEach(font => {
 						console.log(`Access granted for ${font.postscriptName}`);
