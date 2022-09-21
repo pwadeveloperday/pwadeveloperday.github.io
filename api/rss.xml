@@ -6,6 +6,12 @@
 <link>https://github.com/pwadeveloperday/pwadeveloperday.github.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/pwa-summit-2022-warm-up</guid>
+<title>PWA Summit 2022 将于 10 月 5 日在线举行</title>
+<link>https://pwadev.io/blog/pwa-summit-2022-warm-up</link>
+<description>全球 PWA 峰会 (PWA Summit 2022) 将于 10 月 5-6 日在线举行, 这是一个免费的在线活动，专注于帮助每个人使用渐进式 Web 应用 (PWA) 取得成功。来到 PWA Summit 2022，听取社区、供应商和其他开发人员的反馈和讨论。全球 PWA 峰会 (PWA Summit 2022) 是来自参与创建 PWA 技术的几家不同公司的人员之间的合作：谷歌、英特尔、微软和三星。</description>
+<pubDate>Wed, 21 Sep 2022 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/tpac-2022-fugu-api</guid>
 <title>W3C TPAC 2022 - Fugu API 更新</title>
 <link>https://pwadev.io/blog/tpac-2022-fugu-api</link>
@@ -37,7 +43,7 @@
 <pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate>
 </item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/open-speech</guid>
-<title>开场演讲 PWAs & MiniApps</title>
+<title>开场演讲 PWAs and MiniApps</title>
 <link>https://pwadev.io/blog/open-speech</link>
 <description>之于迅速缩小和小程序功能差距的背景之下，拥抱小程序生态，PWA 大有机会！过去 6 年来 PWA 本地原生能力的不断增强加上新兴的 Web Packaging 和 Web Bundles 标准，如何为 Web 开发者打造融合小程序生态的伟大平台；浏览器开发者支持小程序融合生态的机会所在；坚持 Web 标准之于跨设备的优势；将 Web 视为应用平台的集散地的优势。</description>
 <pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate>

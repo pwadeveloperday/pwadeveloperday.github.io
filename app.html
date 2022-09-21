@@ -11,16 +11,16 @@
 		<link rel="manifest" href="/manifest.json" />
 		
 		<meta http-equiv="content-security-policy" content=""><title>PWA 应用 | 中国 PWA 开发者日 | China PWA Developer Day</title>
-	<link href="./_app/immutable/assets/_layout-560b76be.css" rel="stylesheet">
-	<link rel="modulepreload" href="./_app/immutable/start-09d62b7b.js">
+	<link href="./_app/immutable/assets/_layout-afb4d7be.css" rel="stylesheet">
+	<link rel="modulepreload" href="./_app/immutable/start-7b703474.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/index-148df3e2.js">
-	<link rel="modulepreload" href="./_app/immutable/chunks/singletons-438c3736.js">
+	<link rel="modulepreload" href="./_app/immutable/chunks/singletons-4ce4450c.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/index-56c348ce.js">
-	<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-0e0de12b.js">
+	<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-1116054f.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/config-d046e51a.js">
 	<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-f214614a.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/_layout-127e3191.js">
-	<link rel="modulepreload" href="./_app/immutable/components/pages/app/_page.md-b33bc9d6.js">
+	<link rel="modulepreload" href="./_app/immutable/components/pages/app/_page.md-76b279ae.js">
 		<!-- You can replace this block to update the Google fonts used in the project -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,13 +58,13 @@
 	<main id="main" tabindex="-1">
 
 
-<h1 id="pwa-应用"><a aria-hidden="true" tabindex="-1" href="#pwa-应用"><span class="icon icon-link"></span></a>PWA 应用</h1></main>
+<div class="page"><h1>PWA 应用</h1></div></main>
 	<footer><div><p class="copy">©2022 <a href="https://pwadev.io">中国 PWA 开发者日</a></p>
 		<p class="cp"><a href="/api/rss.xml" rel="external">RSS</a> <a href="/code-of-conduct" title="行为准则">行为</a> <a href="/privacy" title="隐私条款">隐私</a> <a href="/about" title="关于中国 PWA 开发者日">关于</a></p></div></footer></div>
 
 
-		<script type="module" data-sveltekit-hydrate="ca9bni">
-		import { start } from "./_app/immutable/start-09d62b7b.js";
+		<script type="module" data-sveltekit-hydrate="lycwef">
+		import { start } from "./_app/immutable/start-7b703474.js";
 
 		start({
 			env: {},
@@ -78,7 +78,7 @@
 				form: null
 			},
 			paths: {"base":"","assets":""},
-			target: document.querySelector('[data-sveltekit-hydrate="ca9bni"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="lycwef"]').parentNode,
 			trailing_slash: "never"
 		});
 	</script>
@@ -108,7 +108,7 @@
 
 			const localFontAccess = async () => {
 				try {
-					const array = await self.queryLocalFonts({postscriptNames: ['NSimSun', 'FangSong', 'KaiTi', 'SegoeUI']});
+					const array = await self.queryLocalFonts({postscriptNames: ['FangSong', 'KaiTi', 'SegoeUI']});
 					let styles = ``;
 					array.forEach(font => {
 						console.log(`Access granted for ${font.postscriptName}`);
