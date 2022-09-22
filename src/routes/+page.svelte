@@ -10,7 +10,7 @@ export let data
 
 <!-- {@html data.ReadMe} -->
 <div class="intro">
-	为加速推动渐进式 Web 应用 (PWA) 在中国的发展，微软、英特尔与谷歌携手举办第二届中国 PWA 开发者日活动。 本次活动邀请一众业界大咖围绕 PWA 展开分享，探讨最新技术进展，以及 PWA 生态的实践与落地。 
+	渐进式 Web 应用 (Progressive Web Apps, PWA) 基于开放的 Web 标准开发，通过现代 Web API 构建和增强，具有可发现、可安装、可链接、可离线、可同步及可推送等等一系列特点，更具备一套代码即可触达任何人、任何设备的优势并确保安全性。<br><br>为加速推动渐进式 Web 应用 (Progressive Web Apps, PWA) 在中国的发展，微软、英特尔与谷歌携手举办中国 PWA 开发者日活动。 该活动邀请一众业界大咖围绕 PWA 展开分享，探讨最新技术进展，以及 PWA 生态的实践与落地。 
 </div>
 <div class="t2022">
 	<div id="agenda">
