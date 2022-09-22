@@ -4,9 +4,9 @@ date: "2022-08-08"
 updated: "2022-08-08"
 categories: 
   - "PWA"
-  - "中国 PWA 开发者日"
+  - "DeveloperDay"
   - "Fugu"
-  - "传感器"
+  - "Sensor"
 coverImage: ""
 coverWidth: 16
 coverHeight: 9

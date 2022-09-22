@@ -5,7 +5,7 @@ updated: "2022-08-08"
 categories: 
   - "MiniApps"
   - "PWA"
-  - "中国 PWA 开发者日"
+  - "DeveloperDay"
 coverImage: ""
 coverWidth: 16
 coverHeight: 9

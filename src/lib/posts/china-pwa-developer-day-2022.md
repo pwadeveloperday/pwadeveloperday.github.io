@@ -4,7 +4,7 @@ date: "2022-08-06"
 updated: "2022-08-06"
 categories: 
   - "PWA"
-  - "中国 PWA 开发者日"
+  - "DeveloperDay"
 coverImage: "/images/blog/20220825/host.png"
 coverWidth: 16
 coverHeight: 9

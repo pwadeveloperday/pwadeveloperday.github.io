@@ -411,6 +411,10 @@ h1.tag:hover a {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(4, 1fr);
 	}
+
+	.post img {
+		width: 100%;
+	}
 }
 
 .home.posts-list li {
