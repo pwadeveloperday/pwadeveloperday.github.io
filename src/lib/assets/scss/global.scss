@@ -41,6 +41,35 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+ul.tagcloud {
+	padding-left: 0;
+	margin: 0;
+}
+
+ul.tagcloud li {
+	display: inline-block;
+	font-size: 0.8rem;
+	margin: 0.5rem 0.2rem;
+}
+
+ul.tagcloud li a {
+	border: 1px dashed #ddd;
+	padding: 0.2rem 0.75rem 0.1rem 0.75rem;
+	text-transform: uppercase;
+	font-family: var(--primaryFont);
+	font-weight: bold;
+	color: var(--intc);
+	text-decoration: none;
+}
+
+ul.tagcloud li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: none;
+	background-color: var(--darkintc);
+	border: 1px solid var(--darkintc);
+}
+
 .hero {
 	height: 100vh;
 }
@@ -339,30 +368,21 @@ header .main-nav ul li:last-child {
 }
 
 h1.tag {
-	font-size: 16.8px;
-	border: 1px solid var(--intc);
-	display: inline-block;
-}
-
-h1.tag:hover {
-	background-color: var(--darkintc);
-	border: 1px solid var(--darkintc);
-	color: #fff;
+	font-size: 1.6rem;
+	color: var(--font-color);
+	text-align: center;
 }
 
 h1.tag a {
-	background-color: var(--pink);
-	color: white;
+	color: var(--font-color);
 	display: inline-block;
 	padding: 0 10px;
 }
 
 h1.tag:hover a {
-	background-color: var(--darkpink);
-}
-
-h1.tag span {
-	padding: 0 10px;
+	background-color: var(--darkintc);
+	color: #fff;
+	border-radius: 20px;
 }
 
 .name {

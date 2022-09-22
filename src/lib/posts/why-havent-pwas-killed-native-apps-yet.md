@@ -4,8 +4,6 @@ date: "2022-09-08"
 updated: "2022-09-08"
 categories: 
   - "PWA"
-  - "Progressive Web Applications"
-  - "Progressive Web Apps"
 coverImage: ""
 coverWidth: 16
 coverHeight: 9

@@ -2,7 +2,6 @@
 	import PostsList from '$lib/components/PostsList.svelte'
 	import Pagination from '$lib/components/Pagination.svelte'
 	import { siteDescription } from '$lib/config'
-
 	export let data
 </script>
 
@@ -14,6 +13,17 @@
 
 <div class="page">
 	<h1 class="tag"><span>Blog</span></h1>
+
+	<ul class="tagcloud">
+		{#each data.uniqueCategories as category}
+		<li>
+			<a href="/blog/category/{category.title}">
+				{ category.title } ({category.count})
+			</a>
+		</li>
+		{/each}
+	</ul>
+
 	<PostsList posts={data.posts} />
 
 	<Pagination currentPage={1} totalPosts={data.total} />

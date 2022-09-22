@@ -4,8 +4,6 @@ date: "2022-09-06"
 updated: "2022-09-06"
 categories: 
   - "PWA"
-  - "Progressive Web Applications"
-  - "Progressive Web Apps"
   - "CoDing"
 coverImage: "/images/blog/20220907/1.png"
 coverWidth: 16

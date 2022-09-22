@@ -3,10 +3,8 @@ title: "第二届中国 PWA 开发者日成功举办"
 date: "2022-08-25"
 updated: "2022-08-25"
 categories: 
-  - "DevDay"
   - "PWA"
-  - "Progressive Web Applications"
-  - "Progressive Web Apps"
+  - "中国 PWA 开发者日"
 coverImage: "/images/blog/20220825/host.png"
 coverWidth: 16
 coverHeight: 9

@@ -3,10 +3,8 @@ title: "网页的原生化之旅"
 date: "2022-08-06"
 updated: "2022-08-08"
 categories: 
-  - "DevDay"
   - "PWA"
-  - "Progressive Web Applications"
-  - "Progressive Web Apps"
+  - "中国 PWA 开发者日"
 coverImage: ""
 coverWidth: 16
 coverHeight: 9

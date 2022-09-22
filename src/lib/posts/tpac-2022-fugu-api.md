@@ -6,8 +6,6 @@ categories:
   - "W3C"
   - "Fugu"
   - "PWA"
-  - "Progressive Web Applications"
-  - "Progressive Web Apps"
 coverImage: ""
 coverWidth: 16
 coverHeight: 9

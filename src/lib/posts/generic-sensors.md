@@ -3,12 +3,9 @@ title: "Web 通用传感器 (Generic Sensors)"
 date: "2018-04-08"
 updated: "2022-07-06"
 categories: 
-  - "DevDay"
   - "PWA"
-  - "Progressive Web Applications"
-  - "Progressive Web Apps"
   - "Fugu"
-  - "Sensor"
+  - "传感器"
 coverImage: "/images/blog/20220706/4.png"
 coverWidth: 16
 coverHeight: 9

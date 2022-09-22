@@ -3,11 +3,10 @@ title: "新兴 Web 技术助力 PWA"
 date: "2022-08-08"
 updated: "2022-08-08"
 categories: 
-  - "DevDay"
-  - "Fugu"
   - "PWA"
-  - "Progressive Web Applications"
-  - "Progressive Web Apps"
+  - "中国 PWA 开发者日"
+  - "Fugu"
+  - "传感器"
 coverImage: ""
 coverWidth: 16
 coverHeight: 9

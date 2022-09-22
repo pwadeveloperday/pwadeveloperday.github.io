@@ -12,7 +12,7 @@
 </svelte:head>
 
 <div class="page">
-	<h1 class="tag"><a href="/blog/category">Tag</a> <span>{data.category}</span></h1>
+	<h1 class="tag"><a href="/blog/category">Blog: <span>{data.category}</span></a></h1>
 
 	{#if data.posts.length}
 		<PostsList posts={data.posts} />
