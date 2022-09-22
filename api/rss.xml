@@ -24,6 +24,12 @@
 <description>渐进式 Web 应用 (Progressive Web Apps, PWA) 基于开放的 Web 标准开发，通过现代 Web API 构建和增强，具有可发现、可安装、可链接、可离线、可同步及可推送等等一系列特点，更具备一套代码即可触达任何人、任何设备的优势并确保安全性。由于多方面的原因，PWA 在某些功能上尚需要补齐，特别是在个别平台需要额外的工作。</description>
 <pubDate>Thu, 08 Sep 2022 00:00:00 GMT</pubDate>
 </item><item>
+<guid isPermaLink="true">https://pwadev.io/blog/pwas-and-miniapps-in-w3c-tpac-china-2022</guid>
+<title>W3C 中国 MiniApp 分享: PWAs and MiniApps</title>
+<link>https://pwadev.io/blog/pwas-and-miniapps-in-w3c-tpac-china-2022</link>
+<description>来自微软的宋青见老师在于9 月初召开的 W3C 中国新一代 Web 技术标准论坛的 MiniApps 标准会议环节为大家介绍了 PWA 和 MiniApps，该议题是宋老师与 PWA 之父 Alex Russell 进行过一次讨论对话之后产生的，最后宋老师回答了热心观众的提问。</description>
+<pubDate>Wed, 07 Sep 2022 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/are-you-still-rewriting-code-from-normal-website-to-pwa</guid>
 <title>从网站到 PWA 你还在重新写代码吗？</title>
 <link>https://pwadev.io/blog/are-you-still-rewriting-code-from-normal-website-to-pwa</link>
