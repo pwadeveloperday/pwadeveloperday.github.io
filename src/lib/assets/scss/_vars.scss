@@ -57,8 +57,8 @@ $xxxlMin: 122.5rem;
 	 * These are broken out into two separate variables from a previous iteration. I left
 	 * it in because it's nice to be able to split out the heading and body fonts.
 	 */
-	--pinkFont: Hind, Georgia, Times, serif; 
-	--primaryFont: Hind, sans-serif;
+	--pinkFont: "LXGW WenKai Lite", Hind, Georgia, Times, serif; 
+	--primaryFont: "LXGW WenKai Lite", Hind, sans-serif;
 	--codeFont: 'Fira Code', monospace;
 
 	// Base styles
@@ -71,7 +71,7 @@ $xxxlMin: 122.5rem;
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	font-family: Hind;
+	font-family: "LXGW WenKai Lite", Hind;
 	@media (min-width: $smMin) {
 		font-size: 1rem;
 	}
@@ -81,10 +81,15 @@ body {
 	}
 
 	h1 {
-		font-family: KaiTi, SegoeUI;
+		font-family: "LXGW WenKai Lite", SegoeUI;
+		font-weight: 600;
 	}
 
 	.p2021 div, .p2022 div {
-		font-family: FangSong, SegoeUI;
+		font-family: "LXGW WenKai Lite", SegoeUI;
 	}
+}
+
+.hero h1 {
+	font-family: Hind; 
 }
