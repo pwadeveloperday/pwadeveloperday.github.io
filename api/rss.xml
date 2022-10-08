@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/sw-no-longer-needed-to-meet-install-criteria</guid>
+<title>Service Worker 不再是 PWA 的必要安装条件之一</title>
+<link>https://pwadev.io/blog/sw-no-longer-needed-to-meet-install-criteria</link>
+<description>在 Chrome 中，渐进式 Web 应用 PWA 通常需要满足一些条件才能触发PWA 的安装流程，包括 HTTPS、manifest、Service Worker 等等。来自 Google 的资深开发者关系团队的 Adriana Jara 在她的 Expanding developer control on PWA installation 的演讲中，为全球开发者分享了 Chrome 正在试验的可安装性要求，其中提到了 Service Worker 将不再作为 PWA 的必要安装条件。</description>
+<pubDate>Sat, 08 Oct 2022 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/web-almanac-by-http-archive-pwa</guid>
 <title>HTTP Archive 的 2022 Web 年鉴: PWA </title>
 <link>https://pwadev.io/blog/web-almanac-by-http-archive-pwa</link>
