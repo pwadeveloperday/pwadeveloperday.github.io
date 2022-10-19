@@ -29,6 +29,10 @@ export const navItems = [
 		route: '/app'
 	},
 	{
+		title: '链接',
+		route: '/link'
+	},
+	{
 		title: 'Blog',
 		route: '/blog'
 	}, 

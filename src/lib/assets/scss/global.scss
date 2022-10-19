@@ -210,7 +210,12 @@ header .main-nav ul li:last-child {
 	header nav ul {
 		gap: 0;
 		padding: 0 2px;
+		z-index: 1;
 	}
+}
+
+header nav ul {
+	z-index: 1;
 }
 
 
@@ -464,6 +469,11 @@ h1.tag:hover a {
 
 .herolinks {
 	margin-top: 4rem;
+	z-index: 1;
+}
+
+header a {
+	z-index: 1;
 }
 
 .ads {

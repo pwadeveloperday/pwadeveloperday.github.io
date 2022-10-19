@@ -12,6 +12,7 @@
 	Skip to main content
 </a>
 
+<div class="heromask"></div>
 <header class="hero">
 	<div class="topnav">
 		<a href="/" class="site-title">
