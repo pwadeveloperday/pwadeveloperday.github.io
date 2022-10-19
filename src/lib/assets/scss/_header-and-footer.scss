@@ -66,19 +66,10 @@ header.hero {
 	font-size: 1.2rem;
 }
 
-@media (max-width: 660px) {
-	.links .linkset {
-		flex-direction: column;
-	}	
-	.links a, .links p {
-		margin: 0 10px;
-	}
-}
-
-.links a, .links p {
+.links a, .links p.a, .links p{
 	align-self: center;
 	justify-self: center;
-	margin: 0 40px;
+	margin: 10px 20px;
 }
 
 .links a svg, .links a img {
@@ -87,9 +78,47 @@ header.hero {
 	width: 100%;
 }
 
-.links a.lessh svg {
-	width: 200px;
-	height: 40px;
+.links a.pb svg {
+	height: 60px;
+	max-width: 120px;
+	width: 120px;
+}
+
+.links a.lh svg {
+	height: 60px;
+	max-width: 130px;
+	width: 100%;
+}
+
+.links a.wb svg {
+	height: 60px;
+	max-width: 120px;
+	width: 120px;
+}
+
+.links .linkset.book a {
+	display: inline-block;
+}
+
+.links .linkset.book a img {
+	max-height: 180px;
+	height: 180px;
+	width: 120px;
+}
+
+
+@media (max-width: 668px) {
+	.links .linkset {
+		flex-direction: column;
+	}	
+	.links a, .links p {
+		display: block;
+	}
+
+	.links .linkset.book a {
+		display: block;
+		margin-bottom: 1rem;
+	}
 }
 
 header {
