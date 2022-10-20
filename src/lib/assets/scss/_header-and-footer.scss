@@ -43,9 +43,16 @@ header.hero {
   background-position: center;
 }
 
+@media (min-width: 667px) and (max-width: 1024px) {
+	header.hero {
+		background: url('/images/home/bg2.jpg') no-repeat;
+		background-size: cover;
+	}
+}
+
 .heromask {
-	background-color: rgba(0, 0, 0, 0.2);
-	box-shadow: inset 10px 10px 50px 10px rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 86, 180, 0.2);
+	box-shadow: inset 10px 10px 50px 10px rgba(0, 0, 0, 0.2);
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
@@ -119,6 +126,16 @@ header.hero {
 		display: block;
 		margin-bottom: 1rem;
 	}
+
+	header.hero {
+		background-size: cover;
+	}
+
+	.heromask {
+		background-color: rgba(0, 0, 0, 0.1);
+		box-shadow: inset 10px 10px 40px 10px rgba(0, 86, 180, 0.2);
+	}
+
 }
 
 header {
