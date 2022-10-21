@@ -13,22 +13,6 @@ $xxlMin: 105rem;
 $xxlMax: 122.4375rem;
 $xxxlMin: 122.5rem;
 
-@font-face {
-  font-family: 'Hind';
-  src: url('/fonts/Hind-Regular.ttf');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Hind';
-  src: url('/fonts/Hind-Bold.ttf');
-  font-weight: 600;
-  font-style: bold;
-  font-display: swap;
-}
-
 :root {
 	// Colors
 	--f: rgba(72, 74, 104, 1);
@@ -50,15 +34,7 @@ $xxxlMin: 122.5rem;
   --font-bold: 700;
   --font-medium: 400;
 
-	
-
-	// Fonts
-	/**
-	 * These are broken out into two separate variables from a previous iteration. I left
-	 * it in because it's nice to be able to split out the heading and body fonts.
-	 */
-	--pinkFont: "LXGW WenKai Lite", Hind, Georgia, Times, serif; 
-	--primaryFont: "LXGW WenKai Lite", Hind, sans-serif;
+	--primaryFont: "LXGW WenKai Lite", "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, serif; 
 	--codeFont: 'Fira Code', monospace;
 
 	// Base styles
@@ -71,7 +47,6 @@ $xxxlMin: 122.5rem;
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	font-family: "LXGW WenKai Lite", Hind;
 	@media (min-width: $smMin) {
 		font-size: 1rem;
 	}
@@ -81,15 +56,15 @@ body {
 	}
 
 	h1 {
-		font-family: "LXGW WenKai Lite", SegoeUI;
+		font-family: "LXGW WenKai Lite", "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, serif; 
 		font-weight: 600;
 	}
 
 	.p2021 div, .p2022 div {
-		font-family: "LXGW WenKai Lite", SegoeUI;
+		font-family: "LXGW WenKai Lite", "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, serif; 
 	}
 }
 
 .hero h1 {
-	font-family: Hind; 
+	font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, serif; ; 
 }
