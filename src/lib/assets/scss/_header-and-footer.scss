@@ -37,7 +37,7 @@ header {
 
 header.hero {
 	padding: 0;
-	background: url('/images/home/bg.jpg') no-repeat;
+	background: url('/images/home/bg.webp') no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -45,7 +45,7 @@ header.hero {
 
 @media (min-width: 667px) and (max-width: 1024px) {
 	header.hero {
-		background: url('/images/home/bg2.jpg') no-repeat;
+		background: url('/images/home/bg2.webp') no-repeat;
 		background-size: cover;
 	}
 }
