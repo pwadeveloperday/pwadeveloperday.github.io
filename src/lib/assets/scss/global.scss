@@ -866,3 +866,23 @@ main#apps div:hover a {
 	@include bigger(4, 4);
 	font-size: 2em;
 }
+
+@media only screen and (max-width: 980px) and (min-width: 661px) {
+	main#apps {
+		width: 100%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 10px;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	main#apps {
+		width: 100%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+	}
+}
