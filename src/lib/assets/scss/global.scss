@@ -815,6 +815,7 @@ main#apps div {
 	background-size: 128px 128px;
 	background-repeat: no-repeat;
 	border: 0px solid var(--xxxextlightintc);
+	background-position: center;
 	&:not(:empty){
 		position: sticky;
 		top: 0;
