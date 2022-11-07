@@ -779,3 +779,90 @@ header a {
     grid-template-rows: repeat(5, 1fr);
 	}
 }
+
+// @for $i from 1 through 400 {
+// 	$red: random(255);
+// 	$green: random(255);
+// 	$blue: random(255);
+	
+// 	main#apps div:nth-child(#{$i}){
+// 		background: rgb($red, $green, $blue);
+// 	}
+// } 
+
+@mixin bigger($c, $r){
+	grid-column-end: span $c;
+	grid-row-end: span $r;
+}
+
+main#apps {
+	width: 100%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	gap: 10px;
+}
+
+main#apps div {
+	box-sizing: border-box;
+	border-right: 1vw solid #fff;
+	border-bottom: 1vw solid #fff;
+	width: 100%;
+	min-height: 128px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: 128px 128px;
+	background-repeat: no-repeat;
+	border: 0px solid var(--xxxextlightintc);
+	&:not(:empty){
+		position: sticky;
+		top: 0;
+		&.big{
+			top: 12.5vw;
+		}
+	}
+}
+
+main#apps div:hover {
+	border: 1px solid var(--xxxextlightintc);
+}
+
+main#apps div a {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: transparent;
+	align-items:flex-end;
+	justify-content: center;
+}
+
+main#apps div:hover a span {
+	width: 100%;
+	height: 30px;
+	background-color: var(--intc);
+	margin-bottom: -2px;
+	padding-top: 2px;
+}
+
+main#apps div:hover a {
+	color: #fff;
+  text-shadow: -1px -1px 1px var(--intc), 
+               1px 1px 1px var(--darkintc)
+}
+
+.big {
+	@include bigger(2, 2);
+	min-height: 256px !important;
+	background-size: 256px 256px !important;
+}
+
+.extrabig {
+	@include bigger(3, 3);
+}
+
+.superbig {
+	@include bigger(4, 4);
+	font-size: 2em;
+}
