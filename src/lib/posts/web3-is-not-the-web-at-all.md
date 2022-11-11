@@ -33,17 +33,17 @@ authorImg3: ""
 
 ![Web3 根本不是 Web](/images/blog/20221105/2.png)
 
-> Web 1.0 是静态 HTML，和 URL 一起链接在一起，所有的文档通过 HTTP 协议访问。
+> Web 1.0 是静态 HTML，和 URL 链接在一起，所有的文档通过 HTTP 协议访问。
 > 
 > Web 2.0 增加了 JavaScript, 基于 Web API 的动态 HTML 等等的技术。
 > 
 > 这些技术允许我们在 Web 中基于不同类型的数据做很多复杂的工作。但大多数数据被控制在了一些大的技术公司手中。
 
-如何重塑互联网？伯纳斯-李在麻省理工学院启动了一个新的去中心化 Web 项目 [Solid](https://www.inrupt.com/solid)。该项目旨在从根本上改变 Web 应用的中心化趋势， 它将真正地让数据所有权属于用户，并改善隐私问题。
+如何重塑互联网？伯纳斯-李在麻省理工学院启动了一个新的去中心化 Web 项目 [Solid](https://www.inrupt.com/solid)。该项目旨在从根本上改变 Web 应用的中心化趋势，它将真正地让数据所有权属于用户，并改善隐私问题。
 
 > 区块链协议也许对一些事物有好处，但他们对 [Solid](https://www.inrupt.com/solid) 项目来说并无益处。它们太慢、太贵、太公开了。个人数据存储必须快速、廉价和私有。
 > 
-> Solid 不是 Web3，Solid 是 Web 的第三层，你可以想象为 Web 3.0。不要和 Web3 混为一谈，因为 Web 3.0 是建立在现有的 Web 的基础上，扩充了 Web 的能力，并且填补了一下缺陷。Solid 是真正的 Web 栈中的新的一层。
+> Solid 不是 Web3，Solid 是 Web 的第三层，你可以想象为 Web 3.0。不要将 Web 3.0 和 Web3 混为一谈，因为 Web 3.0 是建立在现有的 Web 的基础上，扩充了 Web 的能力，并且填补了一些缺陷。Solid 是真正的 Web 栈中的新的一层。
 
 ![Solid](/images/blog/20221105/3.png)
 
