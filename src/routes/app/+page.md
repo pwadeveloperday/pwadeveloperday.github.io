@@ -14,6 +14,7 @@
 	<div id="toutiao"><a href="https://mp.toutiao.com/profile_v4/index" title="头条号"><span>头条号</span></a></div>
 	<div id="feizhu"><a href="https://h5.m.taobao.com/trip/home-pwa/index.html" title="飞猪旅行"><span>飞猪旅行</span></a></div>
 	<div id="kujiale"><a href="https://www.kujiale.com/" title="酷家乐"><span>酷家乐</span></a></div>
+	<div id="tiktok"><a href="https://www.tiktok.com/?lang=zh" title="Tiktok"><span>Tiktok</span></a></div>
 
 </main>
 
@@ -50,6 +51,10 @@
 
 	#sspai {
 		background-image: url('https://pwa.sspai.com/icons/512.png');
+	}
+
+	#tiktok {
+		background-image: url('../images/app/tiktok.png');
 	}
 </style>
 
