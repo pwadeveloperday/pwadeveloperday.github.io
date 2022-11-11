@@ -54,7 +54,7 @@
 	}
 
 	#tiktok {
-		background-image: url('../images/app/tiktok.png');
+		background-image: url('/images/app/tiktok.png');
 	}
 </style>
 
