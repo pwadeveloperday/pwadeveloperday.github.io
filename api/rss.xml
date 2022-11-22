@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/project-fugu-on-blinkon-17</guid>
+<title>Google BlinkOn 17</title>
+<link>https://pwadev.io/blog/project-fugu-on-blinkon-17</link>
+<description>Google BlinkOn 17 于 2022 年 11 月 15 日至 17 日举行。新的一年 Chromium 社区有来自数十个组织和更多个人的数以万计的提交，而英特尔 Intel 等公司继续成为 Chromium 社区的突出贡献者。</description>
+<pubDate>Sun, 20 Nov 2022 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/web3-is-not-the-web-at-all</guid>
 <title>蒂姆·伯纳斯-李：Web3 根本不是 Web</title>
 <link>https://pwadev.io/blog/web3-is-not-the-web-at-all</link>
