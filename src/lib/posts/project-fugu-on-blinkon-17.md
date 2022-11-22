@@ -23,7 +23,7 @@ authorCompany3: ""
 authorImg3: ""
 ---
 
-Google BlinkOn 17 于 2022 年 11 月 15 日至 17 日举行。开场的 Keynotes 中提到，Chromium 社区有来自数十个组织和更多个人的数以万计的提交，而新的一年英特尔 Intel 等公司继续成为 Chromium 社区的突出贡献者。在 Chromium 社区中英特尔 Intel Web 团队的重要贡献包括：
+Google BlinkOn 17 于 2022 年 11 月 15 日至 17 日举行。开场的 Keynotes 提到，新的一年 Chromium 社区有来自数十个组织和更多个人的数以万计的提交，而英特尔 Intel 等公司继续成为 Chromium 社区的突出贡献者。在 Chromium 社区中，英特尔 Intel Web 团队的重要贡献包括：
 
 - Project Fugu
   - Ambient Light Sensor
