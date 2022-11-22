@@ -1,5 +1,6 @@
 <svelte:head>
-	<title>PWA 应用 | 中国 PWA 开发者日 | China PWA Developer Day</title>
+
+<title>PWA 应用 | 中国 PWA 开发者日 | China PWA Developer Day</title>
 </svelte:head>
 
 <div class="page">
@@ -15,7 +16,7 @@
 	<div id="feizhu"><a href="https://h5.m.taobao.com/trip/home-pwa/index.html" title="飞猪旅行"><span>飞猪旅行</span></a></div>
 	<div id="kujiale"><a href="https://www.kujiale.com/" title="酷家乐"><span>酷家乐</span></a></div>
 	<div id="tiktok"><a href="https://www.tiktok.com/?lang=zh" title="Tiktok"><span>Tiktok</span></a></div>
-
+	<div id="iqiyi"><a href="https://www.iq.com/?lang=zh_cn" title="iQiyi"><span>iQiyi</span></a></div>
 </main>
 
 </div>
@@ -56,5 +57,8 @@
 	#tiktok {
 		background-image: url('/images/app/tiktok.png');
 	}
-</style>
 
+	#iqiyi {
+		background-image: url('/images/app/iqiyi.svg');
+	}
+</style>
