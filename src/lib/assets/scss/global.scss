@@ -941,4 +941,8 @@ main#apps div:hover a {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 10px;
   }
+
+  .post blockquote {
+    margin-left: 1rem;
+  }
 }
