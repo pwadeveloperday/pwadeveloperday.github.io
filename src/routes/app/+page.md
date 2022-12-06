@@ -11,6 +11,7 @@
 	<div id="qq"><a href="https://xw.qq.com/" title="腾讯网"><span>腾讯网</span></a></div>
 	<div id="office"><a href="https://www.office.com/?ui=zh-CN&rs=CN&auth=1"><span>Microsoft 365</span></a></div>
 	<div id="kdocs"><a href="https://www.kdocs.cn/latest?from=docs"><span>金山文档</span></a></div>
+	<div id="dashi"><a href="https://dashi.163.com/login/?from=desktop"><span>网易邮箱大师</span></a></div>
 	<div id="sspai"><a href="https://pwa.sspai.com/"><span>少数派</span></a></div>
 	<div id="toutiao"><a href="https://mp.toutiao.com/profile_v4/index" title="头条号"><span>头条号</span></a></div>
 	<div id="feizhu"><a href="https://h5.m.taobao.com/trip/home-pwa/index.html" title="飞猪旅行"><span>飞猪旅行</span></a></div>
@@ -48,6 +49,10 @@
 
 	#kdocs {
 		background-image: url('https://qn.cache.wpscdn.cn/kdocs/mobile/touch/apple-180.png');
+	}
+
+	#dashi {
+		background-image: url('https://dashi.163.com/logo.png');
 	}
 
 	#sspai {
