@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/try-out-webnn-api-early-using-webnn-polyfill</guid>
+<title>通过 WebNN Polyfill 体验 WebNN API</title>
+<link>https://pwadev.io/blog/try-out-webnn-api-early-using-webnn-polyfill</link>
+<description>在浏览器之争中，Chrome 凭借 JavaScript 的卓越性能取得了市场主导地位，然而由于 JavaScript 的无类型特性，导致其运行时消耗大量的性能做为代价，这也是 JavaScript 的瓶颈之一。WebAssembly 旨在解决这一问题。本文从 WebAssembly 的起源到开发实践对其做全面探究，帮助开发者对 WebAssembly 有全面的了解。</description>
+<pubDate>Thu, 08 Dec 2022 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/blinkon-17</guid>
 <title>Google BlinkOn 17</title>
 <link>https://pwadev.io/blog/blinkon-17</link>
