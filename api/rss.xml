@@ -9,7 +9,7 @@
 <guid isPermaLink="true">https://pwadev.io/blog/try-out-webnn-api-early-using-webnn-polyfill</guid>
 <title>通过 WebNN Polyfill 体验 WebNN API</title>
 <link>https://pwadev.io/blog/try-out-webnn-api-early-using-webnn-polyfill</link>
-<description>在浏览器之争中，Chrome 凭借 JavaScript 的卓越性能取得了市场主导地位，然而由于 JavaScript 的无类型特性，导致其运行时消耗大量的性能做为代价，这也是 JavaScript 的瓶颈之一。WebAssembly 旨在解决这一问题。本文从 WebAssembly 的起源到开发实践对其做全面探究，帮助开发者对 WebAssembly 有全面的了解。</description>
+<description>W3C Web Neural Network API (WebNN) 是一种新的 Web 标准，允许 Web 应用和 Web 框架在客户端通过 CPU、GPU或专用 AI 加速器来加速深度神经网络。 现在，WebNN Polyfill 已发布到 NPM，支持 Web 浏览器和 Node.js 的多个后端。有了 WebNN Polyfill，Web 开发人员能够在浏览器正式支持 WebNN 之前尽早体验 WebNN API。</description>
 <pubDate>Thu, 08 Dec 2022 00:00:00 GMT</pubDate>
 </item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/blinkon-17</guid>
