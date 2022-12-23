@@ -993,3 +993,12 @@ ul.logogrid {
   margin: 2rem auto;
   padding: 0 2rem;
 }
+
+
+@media only screen and (max-width: 660px) {
+  .logogrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+}
