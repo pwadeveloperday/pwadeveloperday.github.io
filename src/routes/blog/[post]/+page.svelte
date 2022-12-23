@@ -96,7 +96,7 @@
       {/if}
     </div>
 
-    <n
+    <Giscus
       id="comments"
       repo="pwadeveloperday/pwadeveloperday.github.io"
       repoId="R_kgDOIAeUag"
