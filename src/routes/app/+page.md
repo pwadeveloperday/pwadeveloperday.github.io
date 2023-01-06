@@ -9,6 +9,8 @@
 <main id="apps">
 		<div id="douyin"><a href="https://douyin.com" title="抖音"><span>抖音</span></a></div>
     <div id="toutiao"><a href="https://www.toutiao.com/" title="今日头条"><span>今日头条</span></a></div>
+		<div id="dongchedi"><a href="https://www.dongchedi.com/" title="懂车帝"><span>懂车帝</span></a></div>
+		<div id="ixigua"><a href="https://www.ixigua.com/" title="西瓜视频"><span>西瓜视频</span></a></div>
     <div id="weibo"><a href="https://m.weibo.cn/beta" title="新浪微博"><span>新浪微博</span></a></div>
     <div id="qq"><a href="https://xw.qq.com/" title="腾讯网"><span>腾讯网</span></a></div>
     <div id="office"><a href="https://www.office.com/?ui=zh-CN&rs=CN&auth=1" title="Microsoft 365"><span>Microsoft 365</span></a></div>
@@ -29,6 +31,14 @@
 <style>
 	#douyin {
 		background-image: url('https://p3-pc-weboff.byteimg.com/tos-cn-i-9r5gewecjs/pwa_v3/192_192.png');
+	}
+
+	#dongchedi {
+		background-image: url('https://p3.dcarimg.com/img/tos-cn-i-dcdx/7da0e85f6f8c4081822b39e248626712~192x192.png');
+	}
+
+	#ixigua {
+		background-image: url('https://lf3-static.bytednsdoc.com/obj/eden-cn/hbnpe_lm_wpn/ljhwZthlaukjlkulzlp/xigua_pc/logo/192.png');
 	}
 
 	#weibo {

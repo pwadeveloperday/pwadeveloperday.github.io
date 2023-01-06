@@ -215,6 +215,24 @@
       </a>
     </li>
     <li class="logogrid__item">
+      <a href="https://www.dongchedi.com/" title="懂车帝 PWA">
+        <img
+          src="https://p3.dcarimg.com/img/tos-cn-i-dcdx/7da0e85f6f8c4081822b39e248626712~192x192.png"
+          class="logogrid__img"
+          alt="懂车帝 PWA"
+        />
+      </a>
+    </li>
+    <li class="logogrid__item">
+      <a href="https://www.ixigua.com/" title="西瓜视频 PWA">
+        <img
+          src="https://lf3-static.bytednsdoc.com/obj/eden-cn/hbnpe_lm_wpn/ljhwZthlaukjlkulzlp/xigua_pc/logo/192.png"
+          class="logogrid__img"
+          alt="西瓜视频 PWA"
+        />
+      </a>
+    </li>
+    <li class="logogrid__item">
       <a href="https://m.weibo.cn/beta" title="新浪微博 PWA">
         <img
           src="https://h5.sinaimg.cn/m/weibo-lite/icon-default-192.png"
