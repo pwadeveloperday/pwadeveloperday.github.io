@@ -27,7 +27,7 @@ export const navItems = [
   },
   {
     title: "演示",
-    route: "/demos",
+    route: "https://demos.pwadev.io",
   },
   {
     title: "应用",
