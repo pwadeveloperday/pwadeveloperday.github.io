@@ -275,18 +275,6 @@
       </a>
     </li>
     <li class="logogrid__item">
-      <a
-        href="https://h5.m.taobao.com/trip/home-pwa/index.html"
-        title="飞猪旅行 PWA"
-      >
-        <img
-          src="https://h5.m.taobao.com/trip/home-pwa/img/icon_192.png"
-          class="logogrid__img"
-          alt="飞猪旅行 PWA"
-        />
-      </a>
-    </li>
-    <li class="logogrid__item">
       <a href="https://pwa.sspai.com/" title="少数派 PWA">
         <img
           src="https://pwa.sspai.com/icons/512.png"
@@ -308,11 +296,32 @@
       </a>
     </li>
     <li class="logogrid__item">
+      <a href="https://boardmix.cn/app/" title="博思白板 BoardMix PWA">
+        <img
+          src="https://boardmix.cn/app/pwa/icons/windows11/SmallTile.scale-200.png"
+          class="logogrid__img"
+          alt="博思白板 BoardMix PWA"
+        />
+      </a>
+    </li>
+    <li class="logogrid__item">
       <a href="https://www.kujiale.com/" title="酷家乐 PWA">
         <img
           src="https://qhstaticssl.kujiale.com/newt/100312/image/png/1591705870021/192x192.png"
           class="logogrid__img"
           alt="酷家乐 PWA"
+        />
+      </a>
+    </li>
+    <li class="logogrid__item">
+      <a
+        href="https://h5.m.taobao.com/trip/home-pwa/index.html"
+        title="飞猪旅行 PWA"
+      >
+        <img
+          src="https://h5.m.taobao.com/trip/home-pwa/img/icon_192.png"
+          class="logogrid__img"
+          alt="飞猪旅行 PWA"
         />
       </a>
     </li>

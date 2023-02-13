@@ -18,12 +18,12 @@
     <div id="dashi"><a href="https://dashi.163.com/login/?from=desktop" title="网易邮箱大师"><span>网易邮箱大师</span></a></div>
     <div id="sspai"><a href="https://pwa.sspai.com/" title="少数派"><span>少数派</span></a></div>
     <div id="toutiaomp"><a href="https://mp.toutiao.com/profile_v4/index" title="头条号"><span>头条号</span></a></div>
-    <div id="feizhu"><a href="https://h5.m.taobao.com/trip/home-pwa/index.html" title="飞猪旅行"><span>飞猪旅行</span></a></div>
     <div id="kujiale"><a href="https://www.kujiale.com/" title="酷家乐"><span>酷家乐</span></a></div>
     <div id="tiktok"><a href="https://www.tiktok.com/?lang=zh" title="Tiktok"><span>Tiktok</span></a></div>
     <div id="iqiyi"><a href="https://www.iq.com/?lang=zh_cn" title="iQiyi"><span>iQiyi</span></a></div>
-
-  <div id="yuque"><a href="https://www.yuque.com/login?goto=https%3A%2F%2Fwww.yuque.com%2Fdashboard" title="雨雀"><span>雨雀</span></a></div>
+  	<div id="yuque"><a href="https://www.yuque.com/login?goto=https%3A%2F%2Fwww.yuque.com%2Fdashboard" title="雨雀"><span>雨雀</span></a></div>
+		<div id="boardmix"><a href="https://boardmix.cn/app/" title="博思白板 BoardMix"><span>博思白板</span></a></div>
+		<div id="feizhu"><a href="https://h5.m.taobao.com/trip/home-pwa/index.html" title="飞猪旅行"><span>飞猪旅行</span></a></div>
 </main>
 
 </div>
@@ -91,5 +91,9 @@
 
 	#yuque {
 		background-image: url('https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*sHlLTI41kIoAAAAAAAAAAAAADvuFAQ/original');
+	}
+
+	#boardmix {
+		background-image: url('https://boardmix.cn/app/pwa/icons/windows11/SmallTile.scale-200.png');
 	}
 </style>
