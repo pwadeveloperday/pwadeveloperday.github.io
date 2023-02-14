@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/how-fugu-is-my-browser</guid>
+<title>我的浏览器对 Fugu API 的支持如何？</title>
+<link>https://pwadev.io/blog/how-fugu-is-my-browser</link>
+<description>来自 Google 开发者关系团队的 Thomas Steiner开发了 How Fugu is my browser? 的网页应用来检测您的浏览器对 Fugu API 的支持程度，以及相应的 Chrome 扩展来高亮任意的 Web 应用正在使用的 Project Fugu 🐡 API。</description>
+<pubDate>Wed, 01 Feb 2023 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/try-out-webnn-api-early-using-webnn-polyfill</guid>
 <title>通过 WebNN Polyfill 体验 WebNN API</title>
 <link>https://pwadev.io/blog/try-out-webnn-api-early-using-webnn-polyfill</link>
