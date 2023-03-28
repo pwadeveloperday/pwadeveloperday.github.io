@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/new-bing-new-edge</guid>
+<title>Edge 开发者日 · New Bing New Edge</title>
+<link>https://pwadev.io/blog/new-bing-new-edge</link>
+<description>2023 年 3 月 18 日，微软 Reactor 在上海以线下交流和线上直播相结合的形式，举办了主题为 “New Bing New Edge” 的 Edge 开发者日。与 Web 生态的开发者分享并畅聊了 Edge 下的混合模式应用开发，以及 PWA 的当下与未来。</description>
+<pubDate>Sat, 18 Mar 2023 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/web-push-for-web-apps-on-ios-and-ipados</guid>
 <title>iOS 新增 Web Push 及添加到主屏幕支持</title>
 <link>https://pwadev.io/blog/web-push-for-web-apps-on-ios-and-ipados</link>
