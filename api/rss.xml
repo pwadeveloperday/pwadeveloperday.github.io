@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/webnn-published-as-a-candidate-recommendation</guid>
+<title>W3C 发布 WebNN API 候选推荐 (Candidate Recommendation) 标准</title>
+<link>https://pwadev.io/blog/webnn-published-as-a-candidate-recommendation</link>
+<description>W3C Web Neural Network API (WebNN) 是一种新的 Web 标准，允许 Web 应用和 Web 框架在客户端通过 CPU、GPU或专用 AI 加速器来加速深度神经网络。现在，W3C 正式发布 WebNN API 候选推荐（W3C Candidate Recommendation）标准，并且邀请各大厂商在浏览器等环境中实现 WebNN API。</description>
+<pubDate>Fri, 31 Mar 2023 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/new-bing-new-edge</guid>
 <title>Edge 开发者日 · New Bing New Edge</title>
 <link>https://pwadev.io/blog/new-bing-new-edge</link>
