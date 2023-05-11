@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/google-io-2023-fugu</guid>
+<title>Google I/O 2023: 实际应用中的高级 Web API</title>
+<link>https://pwadev.io/blog/google-io-2023-fugu</link>
+<description>Google Chrome 开发者关系团队的 Thomas Steiner 为大家带来了实际应用中的高级 Web API 的演讲，这里的高级 Web API 主要指 Project Fugu API。</description>
+<pubDate>Wed, 10 May 2023 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/google-io-2023</guid>
 <title>Google I/O 2023: Web 机器学习的新动态</title>
 <link>https://pwadev.io/blog/google-io-2023</link>
