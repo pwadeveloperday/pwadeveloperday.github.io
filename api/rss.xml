@@ -6,9 +6,9 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
-<guid isPermaLink="true">https://pwadev.io/blog/blinkon-17</guid>
+<guid isPermaLink="true">https://pwadev.io/blog/google-io-2023</guid>
 <title>Google I/O 2023: Web 机器学习的新动态</title>
-<link>https://pwadev.io/blog/blinkon-17</link>
+<link>https://pwadev.io/blog/google-io-2023</link>
 <description>Google I/O 2023 于 5 月 10 日举行。Google 发布了采用 WebGPU 的公告。 WebGPU 使手机和笔记本电脑中的 Web 应用能够更有效地利用 AI 能力，这些应用正迅速改变一切，从创意软件到健康应用。</description>
 <pubDate>Wed, 10 May 2023 00:00:00 GMT</pubDate>
 </item><item>
@@ -42,9 +42,9 @@
 <description>W3C Web Neural Network API (WebNN) 是一种新的 Web 标准，允许 Web 应用和 Web 框架在客户端通过 CPU、GPU或专用 AI 加速器来加速深度神经网络。 现在，WebNN Polyfill 已发布到 NPM，支持 Web 浏览器和 Node.js 的多个后端。有了 WebNN Polyfill，Web 开发人员能够在浏览器正式支持 WebNN 之前尽早体验 WebNN API。</description>
 <pubDate>Thu, 08 Dec 2022 00:00:00 GMT</pubDate>
 </item><item>
-<guid isPermaLink="true">https://pwadev.io/blog/google-io-2023</guid>
+<guid isPermaLink="true">https://pwadev.io/blog/blinkon-17</guid>
 <title>Google BlinkOn 17</title>
-<link>https://pwadev.io/blog/google-io-2023</link>
+<link>https://pwadev.io/blog/blinkon-17</link>
 <description>Google BlinkOn 17 于 2022 年 11 月 15 日至 17 日举行。新的一年 Chromium 社区有来自数十个组织和更多个人的数以万计的提交，而英特尔 Intel 等公司继续成为 Chromium 社区的突出贡献者。</description>
 <pubDate>Sun, 20 Nov 2022 00:00:00 GMT</pubDate>
 </item><item>
