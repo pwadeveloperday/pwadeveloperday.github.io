@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/microsoft-build-2023-webnn</guid>
+<title>Microsoft 2023 Build: 用于浏览器推理的 ONNX Runtime Web 框架及 WebNN 整合</title>
+<link>https://pwadev.io/blog/microsoft-build-2023-webnn</link>
+<description>在 Microsoft 2023 Build 大会上，Panos Panay 宣布 ONNX Runtime 作为 Windows AI 的 Gateway。 ONNX Runtime 可以跨 CPU、GPU、NPU 或与 Azure 混合在任何 Windows 或其他设备上运行 AI 模型。 微软提到还支持使用 ONNX Runtime Web 在浏览器中进行推理，并正在与合作伙伴英特尔合作整合 WebNN。</description>
+<pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/google-io-2023-fugu</guid>
 <title>Google I/O 2023: 实际应用中的高级 Web API</title>
 <link>https://pwadev.io/blog/google-io-2023-fugu</link>
