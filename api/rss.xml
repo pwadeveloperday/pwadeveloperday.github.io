@@ -6,6 +6,12 @@
 <link>https://pwadev.io</link>
 <atom:link href="https://pwadev.io/rss.xml" rel="self" type="application/rss+xml"/>
 <item>
+<guid isPermaLink="true">https://pwadev.io/blog/w3c-web-technology-forum-2023</guid>
+<title>2023 W3C Web 前沿技术论坛</title>
+<link>https://pwadev.io/blog/w3c-web-technology-forum-2023</link>
+<description>W3C 中国于 2023 年 6 月在北京召开了主题为“智能无限、安全互联”的 Web 前沿技术论坛。本次活动深入探讨了最新的 Web 技术及发展趋势，重点关注 Web 安全、智能应用、多媒体、分布式身份、云与 Web 交互等前沿技术并围绕相关技术的国际化与无障碍特性展开了探讨。通过技术分享及经验交流，共同探索了如何应对当今 Web 面临的挑战，发掘解决方案，进一步满足行业及用户需求。</description>
+<pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
+</item><item>
 <guid isPermaLink="true">https://pwadev.io/blog/microsoft-build-2023-webnn</guid>
 <title>Microsoft 2023 Build: 用于浏览器推理的 ONNX Runtime Web 框架及 WebNN 整合</title>
 <link>https://pwadev.io/blog/microsoft-build-2023-webnn</link>
