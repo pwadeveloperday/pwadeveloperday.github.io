@@ -2,7 +2,6 @@
   "id": "pwadevday",
   "scope": "/",
   "name": "中国 PWA 开发者日",
-  "display": "standalone",
   "display_override": ["window-controls-overlay"],
   "start_url": "/",
   "short_name": "中国 PWA 开发者日",
@@ -12,6 +11,10 @@
   "background_color": "#ffffff",
   "related_applications": [],
   "prefer_related_applications": false,
+  "display": "browser",
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
   "icons": [
     {
       "src": "/images/icons/icon_512.png",
